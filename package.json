@@ -1,0 +1,42 @@
+{
+  "name": "create-reactwasm-app",
+  "version": "1.0.2",
+  "description": "Create Emscripten Web Assembly App from cli",
+  "main": "bin/main.js",
+  "bin": {
+    "create-reactwasm-app": "bin/main.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "publish": "npm publish --access=public",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hasangenc0/create-wasm-app.git"
+  },
+  "keywords": [
+    "webassembly"
+  ],
+  "author": {
+    "name": "Hasan Genc",
+    "email": "hasangencx@hotmail.com"
+  },
+  "license": "ISC OR GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/hasangenc0/create-wasm-app/issues"
+  },
+  "homepage": "https://github.com/hasangenc0/create-wasm-app#readme",
+  "devDependencies": {
+    "@types/jest": "^24.0.15",
+    "@types/node": "^12.0.10",
+    "jest": "^24.8.0",
+    "mocha": "^6.1.4",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.5.2"
+  },
+  "dependencies": {
+    "fs-extra": "^8.0.1",
+    "ncp": "^2.0.0"
+  }
+}
