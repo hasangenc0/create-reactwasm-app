@@ -38,7 +38,7 @@ class Builder {
                 console.log('An error occured while copying the folder.');
                 return console.error(err);
             }
-            console.log('Copy completed!');
+            console.log('App Created!');
         });
     }
     static isAppNameValid(name, directory) {

@@ -1,8 +1,9 @@
 {
   "name": "create-reactwasm-app",
-  "version": "1.0.3",
+  "version": "1.2.0",
   "description": "Create Emscripten Web Assembly App from cli",
   "main": "bin/main.js",
+  "publishConfig": { "registry": "https://npm.pkg.github.com/@hasangenc0" },
   "bin": {
     "create-reactwasm-app": "bin/main.js"
   },
