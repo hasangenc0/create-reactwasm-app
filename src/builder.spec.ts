@@ -1,4 +1,4 @@
-import { Builder } from './main'
+import { Builder } from './builder'
 
 test('Checks command line arguments', () => {
   const args: Array<string> = ['/usr/local/bin/node', '/usr/local/bin/create-wasm-app', 'app_name'];

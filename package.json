@@ -1,6 +1,6 @@
 {
   "name": "create-reactwasm-app",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Create Emscripten Web Assembly App from cli",
   "main": "bin/main.js",
   "publishConfig": {
@@ -31,15 +31,15 @@
   },
   "homepage": "https://github.com/hasangenc0/create-reactwasm-app#readme",
   "devDependencies": {
-    "@types/jest": "^24.0.15",
-    "@types/node": "^12.0.10",
-    "jest": "^24.8.0",
-    "mocha": "^6.1.4",
-    "ts-jest": "^24.0.2",
-    "typescript": "^3.5.2"
+    "@types/jest": "^24.0.18",
+    "@types/node": "^12.7.5",
+    "jest": "^24.9.0",
+    "mocha": "^6.2.0",
+    "ts-jest": "^24.1.0",
+    "typescript": "^3.6.3"
   },
   "dependencies": {
-    "fs-extra": "^8.0.1",
+    "fs-extra": "^8.1.0",
     "ncp": "^2.0.0"
   }
 }
