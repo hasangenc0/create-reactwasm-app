@@ -1,5 +1,9 @@
 # ⚡️ create-reactwasm-app
 
+[![npm version](https://badge.fury.io/js/create-reactwasm-app.svg)](https://badge.fury.io/js/create-reactwasm-app)
+
+[![Build Status](https://travis-ci.org/hasangenc0/create-reactwasm-app.svg?branch=master)](https://travis-ci.org/hasangenc0/create-reactwasm-app.svg?branch=master)
+
 Create Emscripten Web Assembly App with React Support from CLI
 
 ## 🌀 Install
